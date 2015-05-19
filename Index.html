@@ -1,0 +1,47 @@
+<!doctype html>
+
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+    <title>LITS WEBUI course Lecture 5</title>
+    <meta name="description" content="responsive menu">
+    <meta name="author" content="Liu">
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="menu_container">
+        <ul class="menu_full">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#news">News</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a class="mobile_container" href="#">#</a>
+                <ul class="menu_light">
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#news">News</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#about">About</a></li>
+                </ul>
+            </li>
+        </ul>
+        <hr>
+        <div>
+            <form class="button_container">
+                <input type="button" onClick="" value="[].join()">
+                <input type="button" onClick="myInnerHTML()" value="innerHTML">
+                <input type="button" onClick="myAppendChild()" value="appendchild">
+                <input type="button" onClick="myAppendChild_do_while()" value="appendchild_do_while">
+                <input type="button" onClick="myCreateDocumentFragment(0)" value="createDocumentFragment">
+                <input type="button" onClick="clear_all()" value="clear()">                
+            </form>
+            <main>
+            <h3>List</h3>
+                <ul id="list">
+                    <li id="innerHTML"></li>
+                </ul>
+            </main>
+        </div>
+    </div>
+    <script src="js/myscripts.js"></script>
+</body>
+</html>
